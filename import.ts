@@ -1,3 +1,4 @@
+// flutter-webviewでprefetchされたiframeが開かれてしまうため、動的にインポートする
 const [stripePromise, setStripePromise] = useState<Stripe | PromiseLike<Stripe | null> | null>(null);
 
 useEffect(() => {
